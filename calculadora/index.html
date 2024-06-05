@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            
+          
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+       
+        }
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        input[type="number"] {
+            width: 96%;
+            padding:10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        li {
+            margin-bottom: 5px;
+
+   
+
+
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Calculadora de Tabuada</h1>
+ 
+    <form action="calculate.php" method="post">
+        <Center>
+        <label for="number" style="color: #007bff;">Coloque um número: </label>
+    </Center>
+        <input type="number" name="number" id="number" required>
+        <br>
+        <center>
+        <button type="submit">Calcule a tabuada</button>
+    </center>
+    </form>
+
+</body>
+</html>
